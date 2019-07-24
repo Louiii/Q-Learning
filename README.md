@@ -40,10 +40,8 @@ The model will train and output png files of its progress into the 'plots' folde
 Random Exploring           |  Greedy & Random Strategy
 :-------------------------:|:-------------------------:
 <img src="/BasicQ-learning/Policy-RandomExploring.gif" width="425"/> | <img src="/BasicQ-learning/Policy-ExperimentationStrategy.gif" width="425"/>
-:-------------------------:|:-------------------------:
-The colours of the arrows indicate the cost from being in a cell.
 
-Notice how Greedy & Random Strategy settles on the optimal policy much faster than Random Exploring.
+The colours of the arrows indicate the cost from being in a cell. The optimal policy indicates that we should move to cells with lower costs on our way to the goal, as expected. Notice how Greedy & Random Strategy settles on the optimal policy significantly faster than Random Exploring.
 
 # 2 Nondeterministic Q-Learning Algorithm
 # 3 Continous Q-Learning Algorithm
