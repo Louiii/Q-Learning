@@ -13,13 +13,15 @@ Q-learning algorithms, inspired by Tom Mitchell - "Machine Learning" reinforceme
 - An episode is the sequence of actions and rewards from a random starting position until it reaches the goal.
 
 ### Agent
-- The agents main feature is a Q-table, which maps the states and actions to a Q-value.
-- Update rule: Q(s,a) <- r(s, a) + gamma * max_{a'}( Q(s', a') )
+- The agents main feature is a Q-table, which maps the states and actions to a Q-value. The Q-values can be used to determine which action to take from a given state.
+- Episode loop:
+  - Select an action according to a rule.
+  - Update rule: Q(s,a) <- r(s, a) + gamma * max_{a'}( Q(s', a') )
   where s is the current state, a the choose action, r is the immediate reward, gamma is the decay constant, s' is the next state after performing action a in state s, and a' are the actions available from state s'.
-- Strategies for learning the optimal policy:
-  - 1 Random action selection. This can explore the whole search space.
-  - 2 Greedy action selection, the highest Q-value availiable from the current state. This can't explore the whole search space.
-  - 3 Choose a greedy action or a random action using a pdf defined by the function: k^Q-value-of-action, (after normalisation). This can explore the whole search space, but chooses more promising actions with higher probability.
+  - Strategies for learning the optimal policy:
+    - 1 Random action selection. This can explore the whole search space.
+    - 2 Greedy action selection, the highest Q-value availiable from the current state. This can't explore the whole search space.
+    - 3 Choose a greedy action or a random action using a pdf defined by the function: k^Q-value-of-action, (after normalisation). This can explore the whole search space, but chooses more promising actions with higher probability.
 
 ## File Structure
  * [BasicQ-learning](./BasicQ-learning)
