@@ -6,10 +6,10 @@ $ ./tree-md .
 # Project tree
 
 .
- * [dir2](./dir2)
-   * [file21.ext](./dir2/file21.ext)
-   * [file22.ext](./dir2/file22.ext)
-   * [file23.ext](./dir2/file23.ext)
+ * [BasicQ-learning](./BasicQ-learning)
+   * [Q-Table.py](./BasicQ-learning/file21.ext)
+   * [Quiver.py](./BasicQ-learning/file22.ext)
+   * [make_gif_from_png.py](./BasicQ-learning/file23.ext)
 
  
 In command line run 
