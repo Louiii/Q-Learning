@@ -13,8 +13,8 @@ Q-learning algorithms, inspired by Tom Mitchell - "Machine Learning" reinforceme
 - An episode is the sequence of actions and rewards from a random starting position until it reaches the goal.
 
 ### Agent
-- The agents main feature is a Q-table.
-- 
+- The agents main feature is a Q-table, which maps the states and actions to a Q-value.
+- Update rule: Q(s,a) <- r(s, a) + gamma * max_{a'}( Q(s', a') ).
 
 ## Structure
  * [BasicQ-learning](./BasicQ-learning)
