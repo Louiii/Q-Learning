@@ -1,9 +1,9 @@
 # Q-Learning
 Q-learning algorithms, inspired by Tom Mitchell - "Machine Learning" reinforcement learning chapter
 
-# Basic Q-Learning Algorithm
+# 1 Basic Q-Learning Algorithm
 ## Description
-### Gridworld
+### Gridworld (Discrete)
 - The valid states in this simple world are (i, j) where i, j are integers between 0 and 4, representing a 5x5 grid. 
 - The valid actions are 'up' or 'right'.
 - There are different costs associated with each cell according to a cost function, the goal always has a reward of 100.
@@ -34,6 +34,9 @@ Random Exploring           |  Greedy & Random Strategy
 :-------------------------:|:-------------------------:
 <img src="/BasicQ-learning/Policy-RandomExploring.gif" width="425"/> | <img src="/BasicQ-learning/Policy-ExperimentationStrategy.gif" width="425"/>
 
+# 2 Nondeterministic Q-Learning Algorithm
+# 3 Continous Q-Learning Algorithm
+# 4 Nondeterministic and Continous Q-Learning Algorithm
 
 
 <!---
