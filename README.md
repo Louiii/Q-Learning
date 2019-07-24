@@ -2,6 +2,11 @@
 Q-learning algorithms, inspired by Tom Mitchell - "Machine Learning" reinforcement learning chapter
 
 # Basic Q-Learning Algorithm
+## Description
+### Gridworld
+The valid states in this simple world are $(i, j)$ where $i, j \in \Z \cap [0, 4]$.
+### Agent
+
 ## Structure
 .
  * [BasicQ-learning](./BasicQ-learning)
@@ -19,7 +24,7 @@ The model will train and output png files into the plots folder of its progress,
 ![](/BasicQ-learning/Policy-RandomExploring.gif) ![](/BasicQ-learning/Policy-ExperimentationStrategy.gif)
 -->
 
-# Policy Generation
+## Policy Generation
 Random Exploring           |  Greedy & Random Strategy
 :-------------------------:|:-------------------------:
 <img src="/BasicQ-learning/Policy-RandomExploring.gif" width="425"/> | <img src="/BasicQ-learning/Policy-ExperimentationStrategy.gif" width="425"/>
