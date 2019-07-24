@@ -18,12 +18,10 @@ Q-learning algorithms, inspired by Tom Mitchell - "Machine Learning" reinforceme
 
 ## Structure
  * [BasicQ-learning](./BasicQ-learning)
-   * [Q-Table.py](./BasicQ-learning/Q-Table.py)
-   * [Quiver.py](./BasicQ-learning/Quiver.py)
-   * [make_gif_from_png.py](./BasicQ-learning/make_gif_from_png.py)
-   * [/plots](./BasicQ-learning/plots)
-   
-[Q-Table.py](./BasicQ-learning/Q-Table.py) contains all the code for the algorithm. [Quiver.py](./BasicQ-learning/Quiver.py) and [make_gif_from_png.py](./BasicQ-learning/make_gif_from_png.py) are just used for visualising the policy.
+   * [Q-Table.py](./BasicQ-learning/Q-Table.py) -- contains all the code for the algorithm.
+   * [Quiver.py](./BasicQ-learning/Quiver.py) -- visualising the policy.
+   * [make_gif_from_png.py](./BasicQ-learning/make_gif_from_png.py) -- making the gif.
+   * [/plots](./BasicQ-learning/plots) -- folder for the images.
 
 ## Running
 ```bash
