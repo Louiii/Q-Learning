@@ -15,7 +15,7 @@ Q-learning algorithms, inspired by Tom Mitchell - "Machine Learning" reinforceme
 ### Agent
 - The agents main feature is a Q-table, which maps the states and actions to a Q-value. The Q-values can be used to determine which action to take from a given state.
 - Episode loop:
-  - Select an action according to a rule.
+  - Select an action, a, according to a rule.
   - Update rule: Q(s,a) <- r(s, a) + gamma * max_{a'}( Q(s', a') )
   where s is the current state, a the choose action, r is the immediate reward, gamma is the decay constant, s' is the next state after performing action a in state s, and a' are the actions available from state s'.
   - Strategies for learning the optimal policy:
