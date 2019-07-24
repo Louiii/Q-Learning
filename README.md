@@ -27,18 +27,19 @@ Q-learning algorithms, inspired by Tom Mitchell - "Machine Learning" reinforceme
 ```bash
 $ python Q-Table.py
 ```
-The model will train and output png files of its progress into the plots folder, then it will join them into a gif.
-
+The model will train and output png files of its progress into the 'plots' folder, then it will join them into a gif.
 
 ## Policy Generation
 Random Exploring           |  Greedy & Random Strategy
 :-------------------------:|:-------------------------:
 <img src="/BasicQ-learning/Policy-RandomExploring.gif" width="425"/> | <img src="/BasicQ-learning/Policy-ExperimentationStrategy.gif" width="425"/>
 
+
+
+<!---
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-<!---
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 -->
