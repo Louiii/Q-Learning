@@ -1,15 +1,13 @@
 # Q-Learning
 Q-learning algorithms, inspired by Tom Mitchell - "Machine Learning" reinforcement learning chapter
 
-#Projects:
-$ ./tree-md .
-# Project tree
+# Basic Q-Learning Algorithm
 
 .
  * [BasicQ-learning](./BasicQ-learning)
-   * [Q-Table.py](./BasicQ-learning/file21.ext)
-   * [Quiver.py](./BasicQ-learning/file22.ext)
-   * [make_gif_from_png.py](./BasicQ-learning/file23.ext)
+   * [Q-Table.py](./BasicQ-learning/Q-Table.py)
+   * [Quiver.py](./BasicQ-learning/Quiver.py)
+   * [make_gif_from_png.py](./BasicQ-learning/make_gif_from_png.py)
 
  
 In command line run 
@@ -19,8 +17,8 @@ $ python Q-Table.py
 the model will train and output png files into the images folder of its progress.
 
 
-![](phase.gif)
-![](ts.gif)
+![](/BasicQ-Learning/Policy-RandomExploring.gif)
+![](/BasicQ-Learning/Policy-ExperimentationStrategy.gif)
 
 
 ## Contributing
