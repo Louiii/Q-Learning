@@ -21,7 +21,7 @@ Q-learning algorithms, inspired by Tom Mitchell - "Machine Learning" reinforceme
   - 2 Greedy action selection, the highest Q-value availiable from the current state. This can't explore the whole search space.
   - 3 Choose a greedy action or a random action using a pdf defined by the function: k^Q-value-of-action, (after normalisation). This can explore the whole search space, but chooses more promising actions with higher probability.
 
-## Structure
+## File Structure
  * [BasicQ-learning](./BasicQ-learning)
    * [Q-Table.py](./BasicQ-learning/Q-Table.py) -- contains all the code for the algorithm.
    * [Quiver.py](./BasicQ-learning/Quiver.py) -- visualising the policy.
