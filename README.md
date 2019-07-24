@@ -1,4 +1,4 @@
-# Q-Learning
+# Q-Learning Algorithms
 Q-learning algorithms, inspired by Tom Mitchell - "Machine Learning" reinforcement learning chapter
 
 # 1 Basic Q-Learning Algorithm
