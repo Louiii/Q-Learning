@@ -4,9 +4,17 @@ Q-learning algorithms, inspired by Tom Mitchell - "Machine Learning" reinforceme
 # Basic Q-Learning Algorithm
 ## Description
 ### Gridworld
-The valid states in this simple world are $`(i, j)`$ where $`i, j \in \Z \cap [0, 4]`$.
+- The valid states in this simple world are (i, j) where i, j are integers between 0 and 4, representing a 5x5 grid. 
+- The valid actions are 'up' or 'right'.
+- There are different costs associated with each cell according to a cost function, the goal always has a reward of 100.
+- If the agent hits a wall it get a penalty but doesn't move anywhere.
+- The world is deterministic.
+- The goal state is (4, 4) in the top right corner, so starting at any state the agent can reach the goal.
+- An episode is the sequence of actions and rewards from a random starting position until it reaches the goal.
 
 ### Agent
+- The agents main feature is a Q-table.
+- 
 
 ## Structure
 .
