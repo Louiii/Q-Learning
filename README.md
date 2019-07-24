@@ -16,9 +16,9 @@ $ python Q-Table.py
 ```
 the model will train and output png files into the images folder of its progress, then it will join them into a gif.
 
-{:refdef: style="width: 10px; height: 10px"}
-![](/BasicQ-learning/Policy-RandomExploring.gif) ![](/BasicQ-learning/Policy-ExperimentationStrategy.gif)
-{: refdef}
+
+![20%](/BasicQ-learning/Policy-RandomExploring.gif) ![20%](/BasicQ-learning/Policy-ExperimentationStrategy.gif)
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
