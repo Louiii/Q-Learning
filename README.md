@@ -4,7 +4,7 @@ Q-learning algorithms, inspired by Tom Mitchell - "Machine Learning" reinforceme
 # Basic Q-Learning Algorithm
 ## Description
 ### Gridworld
-The valid states in this simple world are $(i, j)$ where $i, j \in \Z \cap [0, 4]$.
+The valid states in this simple world are $$(i, j)$$ where $$i, j \in \Z \cap [0, 4]$$.
 ### Agent
 
 ## Structure
