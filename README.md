@@ -17,21 +17,18 @@ Q-learning algorithms, inspired by Tom Mitchell - "Machine Learning" reinforceme
 - 
 
 ## Structure
-.
  * [BasicQ-learning](./BasicQ-learning)
    * [Q-Table.py](./BasicQ-learning/Q-Table.py)
    * [Quiver.py](./BasicQ-learning/Quiver.py)
    * [make_gif_from_png.py](./BasicQ-learning/make_gif_from_png.py)
+   * [/plots](./BasicQ-learning/plots)
 
 ## Running
 ```bash
 $ python Q-Table.py
 ```
-The model will train and output png files into the plots folder of its progress, then it will join them into a gif.
+The model will train and output png files of its progress into the plots folder, then it will join them into a gif.
 
-<!---
-![](/BasicQ-learning/Policy-RandomExploring.gif) ![](/BasicQ-learning/Policy-ExperimentationStrategy.gif)
--->
 
 ## Policy Generation
 Random Exploring           |  Greedy & Random Strategy
