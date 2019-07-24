@@ -20,7 +20,7 @@ the model will train and output png files into the images folder of its progress
 ![](/BasicQ-learning/Policy-RandomExploring.gif) ![](/BasicQ-learning/Policy-ExperimentationStrategy.gif)
 -->
 
-<img src="/BasicQ-learning/Policy-RandomExploring.gif" width="425"/> <img src="/BasicQ-learning/Policy-ExperimentationStrategy.gif" width="425"/> 
+<img src="/BasicQ-learning/Policy-RandomExploring.gif" width="425"/><em>image_caption1</em> <img src="/BasicQ-learning/Policy-ExperimentationStrategy.gif" width="425"/><em>image_caption2</em> 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
