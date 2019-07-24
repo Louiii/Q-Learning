@@ -17,8 +17,8 @@ $ python Q-Table.py
 the model will train and output png files into the images folder of its progress.
 
 
-![](/BasicQ-Learning/Policy-RandomExploring.gif)
-![](/BasicQ-Learning/Policy-ExperimentationStrategy.gif)
+![](/BasicQ-learning/Policy-RandomExploring.gif)
+![](/BasicQ-learning/Policy-ExperimentationStrategy.gif)
 
 
 ## Contributing
