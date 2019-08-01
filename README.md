@@ -46,7 +46,7 @@ Random Exploring           |  Greedy & Random Strategy (k=2)
 -->
 Random Exploring           |  ε-Greedy, ε = 0.2        |  Softmax, τ = 100, decay = 0.999
 :-------------------------:|:-------------------------:|:-------------------------:
-<img src="/BasicQ-learning/gifs/Random.gif" width="350"/> | <img src="/BasicQ-learning/gifs/εGreedy.gif" width="350"/> | <img src="/BasicQ-learning/gifs/Softmax.gif" width="350"/>
+<img src="/BasicQ-learning/gifs/Random.gif" width="350"/> | <img src="/BasicQ-learning/gifs/εGreedy.gif" width="350"/> | <img src="/BasicQ-learning/gifs/softmax.gif" width="350"/>
 
 The colours of the arrows indicate the cost from being in a cell. The optimal policy indicates that we should move to cells with lower costs on our way to the goal, as expected. Notice how Greedy & Random Strategy settles on the optimal policy significantly faster than Random Exploring.
 
@@ -90,6 +90,11 @@ $ python nondeterministicQ-Table.py
 <img src="/NondeterministicQ-Learning/LearningRates.png" width="650"/>
 
 # 3 Continous Q-Learning Algorithm
+//notes to self:
+- Make continuous visualisation of cost fn.
+- Make state space cts.
+- Make action space cts.
+
 # 4 Nondeterministic and Continous Q-Learning Algorithm
 
 

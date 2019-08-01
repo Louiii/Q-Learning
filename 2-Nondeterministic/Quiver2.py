@@ -53,19 +53,21 @@ def plotAllCosts(files, labels):
     rcParams['axes.prop_cycle'] = cycler(color=cmap(np.linspace(0, 1, len(l))))
 
     for i in range(len(l)):
-        ax1.plot(xss[i], yss[i], color=cmap((i)*(0.6*1/len(l))), label=l[i])
-    ax1.legend(loc='right center', fancybox=True, shadow=True)
+        ax1.plot(xss[i], yss[i], color=cmap((i)*(0.6*1/len(l))))
+#    ax1.legend(loc='right center', fancybox=True, shadow=True)
 
     ax1.set_ylabel('Total Reward')
     ax1.set_xlabel('Iteration')
 
     for i in range(len(l)):
-        ax2.plot(xss[i], yss[i], color=cmap((i)*(0.6*1/len(l))))
+        ax2.plot(xss[i], yss[i], color=cmap((i)*(0.6*1/len(l))), label=l[i])
+    ax2.legend(loc='right center', fancybox=True, shadow=True)
     ax2.set_xscale("log")
     ax2.set_xlabel('Log Iteration')
 
+    f.set_size_inches(10.0, 4.5)
     plt.plot()
-    plt.savefig('LearningRates.png',dpi=400)#, bbox_inches = 'tight')
+    plt.savefig('LearningRates.png', dpi=400)#, bbox_inches = 'tight')
 
 def plotCostCts(f_list):
     plt.imshow(f_list)
